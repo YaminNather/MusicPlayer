@@ -28,4 +28,4 @@ A sleek and modern music player app built using Jetpack Compose for the UI and M
 
 <img src="readme_images/albums_page.png" height="700" />
 
-<img src="readme_images/Screenshot_1726070046-portrait.png" height="700" />
+<img src="readme_images/album_page.png" height="700" />
