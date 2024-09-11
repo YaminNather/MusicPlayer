@@ -76,6 +76,10 @@ dependencies {
     implementation(libs.kotlinx.datetime)
     implementation(libs.google.fonts)
 
+    implementation(libs.media3.common)
+    implementation(libs.media3.exoplayer)
+    implementation(libs.media3.session)
+
     implementation(project(":neumorphism"))
     implementation(project(":businesslogic"))
 }
