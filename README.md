@@ -1,4 +1,7 @@
 # 🎶 Music Player Application
+<img src="readme_images/song_player_page.png" height="700" />
+
+
 A sleek and modern music player app built using Jetpack Compose for the UI and Media3 ExoPlayer for media playback with amazing user experience.
 
 ## Table of Contents
@@ -21,3 +24,8 @@ A sleek and modern music player app built using Jetpack Compose for the UI and M
 - View and Modify Audio file Metadata.
 
 ## 📸 Screenshots
+<img src="readme_images/song_player_page.png" height="700" />
+
+<img src="readme_images/albums_page.png" height="700" />
+
+<img src="readme_images/Screenshot_1726070046-portrait.png" height="700" />

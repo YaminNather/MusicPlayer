@@ -58,7 +58,12 @@ public class AlbumQueryApi internal constructor(private val contentResolver: Con
 
         cursor.close()
 
-        return albums.values.toList()
+        return albums.values.toList().let { returnValue ->
+           val astroworld = returnValue.find { album -> album.name.contains("ASTROWORLD", ignoreCase = true) }!!
+
+            return listOf(astroworld) + returnValue
+        }
+
     }
 
     @RequiresApi(Build.VERSION_CODES.Q)
